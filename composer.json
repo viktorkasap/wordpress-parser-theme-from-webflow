@@ -1,0 +1,24 @@
+{
+    "name": "victorkasap/parser",
+    "authors": [
+        {
+            "name": "Kasap Victor",
+            "email": "kasap.victor@gmail.com"
+        }
+    ],
+    "require": {
+      "coderockr/php-query":"@dev",
+      "wa72/htmlpagedom": "^2.0",
+      "wa72/html-pretty-min": "^0.2.0",
+      "symfony/dom-crawler": "^4.4",
+      "symfony/css-selector": "^4.4",
+      "ext-zlib": "*",
+      "ext-zip": "*",
+      "ext-json": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "classes/"
+      }
+    }
+}
