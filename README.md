@@ -1,17 +1,17 @@
-# Заметки
+# Notes
 ___
-> Установить ACF
+> Set ACF
 ```
 data-part='navbar'
 ```
-> Атрибут для общих блоков.
+> Attribute for shared blocks.
 > 
-> Добавляется на общий блок — обертку.
-> Эта часть верстки будет добавлена в папку template-parts 
-> с именем которое указано в атрибуте 
-> в данном случае `navbar.php`
-> в том месте, где был этот блок
-> добавится 
+> Added on the common block - wrapper.
+> This part of the layout will be added to the template-parts folder 
+> with the name specified in the attribute 
+> in this case `navbar.php`.
+> in the place where the block was
+> will be added 
 
 ```php 
 <?php get_template_part ( 'template-parts/navbar' ); ?> 
@@ -19,12 +19,12 @@ data-part='navbar'
 
 ---
 
-> Для шаблона 404 использовать название slug `page-not-found` или `404`
+> For a 404 template, use the slug name `page-not-found` or `404`
 
 ---
 
->Для локального запуска в терминале
-```bash
+>To run locally in a terminal
+`````bash
 php -S localhost:9000
 ```
 
@@ -33,3 +33,4 @@ php -S localhost:9000
 
 
 
+Translated with www.DeepL.com/Translator (free version)
