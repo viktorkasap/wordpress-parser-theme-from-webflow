@@ -24,13 +24,6 @@ data-part='navbar'
 ---
 
 >To run locally in a terminal
-`````bash
+```bash
 php -S localhost:9000
 ```
-
-
-
-
-
-
-Translated with www.DeepL.com/Translator (free version)
